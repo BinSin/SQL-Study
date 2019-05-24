@@ -1,0 +1,29 @@
+# COUNT
+```
+SELECT COUNT(*)
+FROM CITY
+WHERE POPULATION>100000
+```
+인구가 100,000이 넘는 도시 갯수
+
+# SUM
+```
+SELECT SUM(POPULATION)
+FROM CITY
+WHERE DISTRICT = 'California'
+```
+DISTRICT가 캘리포니아인 인수 모두 더하기
+
+# AVG
+```
+SELECT AVG(POPULATION)
+FROM CITY
+WHERE DISTRICT = 'California'
+```
+평균 구하기
+
+# ROUND, CEILING, FLOOR
+```
+ROUND(12.35393,2) // 12.35000
+```
+반올림, 올림, 내림
