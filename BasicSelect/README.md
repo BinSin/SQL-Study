@@ -30,3 +30,14 @@ LIMIT에 의해 1개만 출력
 SELECT DISTINCT CITY FROM STATION WHERE RIGHT(CITY,1) IN ('a','i','e','o','u');
 ```
 오른쪽에서 1번째 선택
+
+# NOT
+```
+SELECT DISTINCT CITY FROM STATION WHERE LEFT(CITY,1) NOT IN ('a','i','e','o','u');
+```
+
+# SUBSTRING
+```
+ORDER BY SUBSTRING(NAME, -3), ID ASC;
+```
+뒤에서 3글자
