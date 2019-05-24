@@ -43,3 +43,5 @@ GROUP BY earnings DESC
 LIMIT 1;
 ```
 AS 로 변수를 만들고 GROUP BY 로 사용, LIMIT는 1개만 출력 제한
+
+# 
