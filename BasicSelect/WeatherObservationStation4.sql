@@ -1,1 +1,1 @@
-select CITY, STATE from STATION;
+select COUNT(CITY) - COUNT(DISTINCT CITY) from STATION;
